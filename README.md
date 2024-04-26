@@ -12,7 +12,7 @@ https://ratish11.github.io/
 
 ![image]()
 
-#ServerLess Ordering Application
+
 
 This project deploys a serverless API for an ordering application on AWS using Terraform. It leverages API Gateway, DynamoDB, and Lambda to create a scalable and cost-effective solution.
 

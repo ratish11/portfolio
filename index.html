@@ -1,68 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Ratish's Portfolio</title>
-    </head>
-    <body>   
-        <header>
-            <h1>RATISH &ensp; JHA</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="about" class="about"> 
-                <img src="assets/images/portfolio-pic.jpg">
-                <div class="about-para">
-                    <h3>About</h3>
-                    <p>
-                        My name is Marty Nolan and I am currently in school to become a web developer! 
-                        I have spent most of my life in Ottawa and have been working as a carpenter for the last 8 years. I recently got into 
-                        web development and realized how much I loved it and have been focused and determined to learn as much as I can in this industry!
-                        When I'm not out biking in Gatineau Park, I'm on my computer, coding away!
-                        Right now, I am currently learning HTML, CSS, and JavaScript.
-                        Hopefully you take some time to go through some of the recent projects I have completed!
-                    </p>
-                </div>
-            </section>
-            <section id="projects" class="projects">
-                <h3>Projects</h3>
-                <div class="project-cards">
-                    <a class="html-card" href="https://willycoxy.github.io/TopStocks/">
-                        <div class="project-card-text">
-                            Top Stocks - JavaScript
-                        </div>
-                    </a>
-                    <a class="css-card" href="https://mcn17.github.io/work-day-scheduler/">
-                    <div class="project-card-text">
-                        Work Day Scheduler - JavaScript
-                    </div>
-                    </a>
-                    <a class="javascript-games-card" href="https://mcn17.github.io/code-quiz/">
-                        <div class="project-card-text">
-                            Code Quiz - JavaScript
-                        </div>
-                    </a>
-                    <a class="games-card">
-                        <div class="project-card-text">
-                            Coming Soon...
-                        </div>
-                    </a>
-            </section>
-        </main>
-        <footer id="contact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratish Jha - Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ratish Jha</h1>
+        <nav>
             <ul>
-                <li>Phone: 613-698-0464</li>
-                <li>Email: martynolan17@gmail.com</li>
-                <li><a href="https://github.com/MCN17">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/martin-nolan-7149b27a/">LinkedIn</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </footer>
-    </body>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me/Us</h2>
+            <p>Write a compelling paragraph about yourself or your company, your background, and your passion. Highlight your skills and experiences.</p>
+            <img src="assets/images/your-image.jpg" alt="Your photo or company logo">
+        </section>
+
+        <section id="projects">
+            <h2>ServerLess Ordering Application</h2>
+            <div class="project-container">
+                <article class="project">
+                    <img src="assets/images/project1.jpg" alt="Project 1 thumbnail">
+                    <h3>Project 1 Title</h3>
+                    <p>AThis project deploys a serverless API for an ordering application on AWS using Terraform. It leverages API Gateway, DynamoDB, and Lambda to create a scalable and cost-effective solution.
+
+                        Technologies Used: AWS API Gateway, AWS DynamoDB, AWS Lambda, Terraform
+                        Key Features: Sample data population for demonstration purposes, commented-out sections for more complex deployments involving EC2 instances.</p>
+                    <a href="https://github.com/ratish11/ServerLess_Ordering_Application.git">Repository Link</a>
+                </article>
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Feel free to reach out for any inquiries or collaborations. Include your contact information or a simple contact form.</p>
+            <form action="#">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- <footer>
+        <p>&copy; 2024 Your Name/Company. All Rights Reserved.</p>
+    </footer> -->
+
+</body>
 </html>
