@@ -3,67 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratish Jha - Portfolio</title>
+    <title>Imaginative Website</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
 </head>
 <body>
-
     <header>
-        <h1>Ratish Jha</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Welcome to Imaginative World</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
 
-        <section id="about">
-            <h2>About Me/Us</h2>
-            <p>Write a compelling paragraph about yourself or your company, your background, and your passion. Highlight your skills and experiences.</p>
-            <img src="assets/images/your-image.jpg" alt="Your photo or company logo">
-        </section>
-
-        <section id="projects">
-            <h2>ServerLess Ordering Application</h2>
-            <div class="project-container">
-                <article class="project">
-                    <img src="assets/images/project1.jpg" alt="Project 1 thumbnail">
-                    <h3>Project 1 Title</h3>
-                    <p>AThis project deploys a serverless API for an ordering application on AWS using Terraform. It leverages API Gateway, DynamoDB, and Lambda to create a scalable and cost-effective solution.
-
-                        Technologies Used: AWS API Gateway, AWS DynamoDB, AWS Lambda, Terraform
-                        Key Features: Sample data population for demonstration purposes, commented-out sections for more complex deployments involving EC2 instances.</p>
-                    <a href="https://github.com/ratish11/ServerLess_Ordering_Application.git">Repository Link</a>
-                </article>
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="image1.jpg" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project 1</h3>
+                        <p>Description of Project 1</p>
+                    </div>
                 </div>
-        </section>
+                <div class="portfolio-item">
+                    <img src="image2.jpg" alt="Project 2">
+                    <div class="overlay">
+                        <h3>Project 2</h3>
+                        <p>Description of Project 2</p>
+                    </div>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>Feel free to reach out for any inquiries or collaborations. Include your contact information or a simple contact form.</p>
-            <form action="#">
-                <label for="name">Your Name:</label>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-
-                <label for="email">Your Email:</label>
+                <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
             </form>
-        </section>
+        </div>
+    </section>
 
-    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Imaginative World. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 
-    <!-- <footer>
-        <p>&copy; 2024 Your Name/Company. All Rights Reserved.</p>
-    </footer> -->
-
+    <script src="script.js"></script> <!-- You can add JavaScript functionality here -->
 </body>
 </html>
