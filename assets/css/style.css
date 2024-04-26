@@ -1,0 +1,292 @@
+:root {
+  --main-color: #2e3449;
+  --main-font-color: silver;
+  --main-font-style: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+/* Header Style Start */
+
+header {
+  background-color: #595b61;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+
+header nav ul {
+  font-family: monospace;
+  font-size: 30px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  color: var(--main-font-color);
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+header nav ul li a {
+  color: var(--main-font-color);
+  text-decoration: none;
+  
+}
+
+header nav ul li a:hover {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+header h1 {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-size: 50px;
+  text-align: center;
+  margin: 5px 0 px 0;
+
+}
+
+
+.about img {
+  width: 10%;
+  height: 10%;
+  border: solid 2px;
+  border-radius: 150px;
+  margin: 10px;
+  float: left;
+}
+
+/* Header Style End */
+
+
+/* Main Style Start */
+/* About Section */
+
+main {
+  background-color: var(--main-color);
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 2;
+}
+
+
+
+.about-para {
+  text-align: center;
+  width: 80%;
+  margin: 20px 100px 20px 100px;
+  padding-bottom: 50px;
+}
+
+.about-para h3 {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-weight: darker;
+  font-size: 40px;
+  margin-top: 25px;
+  text-align: center;
+  
+}
+
+.about-para p {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-size: 20px;
+}
+
+/* Main Style End */
+
+/* Projects Style Start */
+
+.projects {
+  padding-bottom: 20px;
+}
+
+.projects h3 {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding-bottom: 5px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 4px;
+  column-gap: 4px;
+}
+
+.html-card {
+  width: 100%;
+  height: 500px;
+  border: solid 4px silver;
+  flex-basis: 80%;
+  background-image: url(../images/topstocks.png);
+  background-size: cover;
+}
+
+
+.project-cards a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.project-cards a:hover {
+  opacity: 1;
+}
+
+.project-card-text {
+  background-color: var(--main-color);
+  font-size: 30px;
+  color: silver;
+  opacity: 0.7;
+}
+
+
+.css-card {
+  width: 40%;
+  height: 400px;
+  border: solid 4px silver;
+  background-image: url(../images/work-day-scheduler.png);
+  background-size: cover;
+}
+
+.games-card {
+  width: 40%;
+  height: 400px;
+  border: solid 4px silver;
+  background-image: url(../images/donkeykong.jpg);
+  background-size: cover;
+}
+
+.javascript-games-card {
+  width: 40%;
+  height: 400px;
+  border: solid 4px silver;
+  background-image: url(../images/codequiz.png);
+  background-size: cover;
+}
+
+/*Projects Style End */
+
+/*Footer Style Start */
+
+footer {
+  background-color:#57799a;
+}
+
+footer ul {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer ul li {
+  padding: 15px 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer ul li a:hover {
+  background-color: #595b61;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/*Footer Style End */
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+
+  
+  header {
+      justify-content: center;
+      position: relative;
+  }
+
+  header nav ul {
+      text-align: center;
+  }
+  
+  .about-para p {
+      font-size: 25px;
+  }
+
+  .about-para h3 {
+      font-size: 30px;
+  }
+
+
+  .about img {
+      width:20%;
+      height:20%;
+  }
+
+  footer ul {
+      justify-content: center;
+      text-align: center;
+  }
+
+  .projects h3 {
+      font-size: 30px;
+  }
+
+  .project-card-text {
+      text-align: center;
+  }
+
+  .css-card {
+      background-image: url(../images/run-buddy-image.jpg);
+      background-size:cover;
+      background-position: right;
+  }
+}
+
+
+
