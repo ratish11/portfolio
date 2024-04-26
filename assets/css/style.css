@@ -129,11 +129,36 @@ footer a {
   margin-right: auto;
 }
 
-#about-content {
+.about-content {
+  display: flex;  /* Make the container a flexbox */
+  margin-left: 20px;
   text-align: center;
-  margin-bottom: 15px;
 }
+
+.about-image-container {
+  flex: 0 0 200px;  /* Set a fixed width for the image container */
+  margin-right: 20px;  /* Add margin for spacing between image and text */
+}
+
+.about-text {
+  flex: 1;  
+  /* text-align: center; */
+}
+
+.about-image {
+  width: 200px; /* Adjust width as desired */
+  height: auto; /* Maintain aspect ratio */
+  /* border-radius: 50%; Create a circular photo */
+  margin-left: 2rem; /* Add spacing between photo and text */
+}
+
 
 .contact-link {
   text-align: center;
+}
+.social-icon img {
+  width: 20px; 
+  height: 20px; 
+  display: inline-block;
+  margin-right: 10px;
 }
