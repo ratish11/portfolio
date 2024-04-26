@@ -2,81 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imaginative Website</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+    <title>Ratish Jha - Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Welcome to Imaginative World</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1><a href="/">Ratish Jha</a></h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-    </section>
-
-    <section id="portfolio" class="section">
-        <div class="container">
-            <h2>Our Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="image1.jpg" alt="Project 1">
-                    <div class="overlay">
-                        <h3>Project 1</h3>
-                        <p>Description of Project 1</p>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="image2.jpg" alt="Project 2">
-                    <div class="overlay">
-                        <h3>Project 2</h3>
-                        <p>Description of Project 2</p>
-                    </div>
-                </div>
-                <!-- Add more portfolio items as needed -->
+    <main>
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p id="about-content">Hi, I'm Ratish. <br> I'm currently self-learning terraform for Cloud development.
+            I'm based out of the Mumbai, India.</p>
+        </section>
+        <section id="projects">
+            <h2 class="section-title">Example Projects</h2>
+            <!-- <div class="separator"></div> -->
+            <div class="featured-project">
+                <a href="https://mtg-hub.herokuapp.com/">
+                    <img src="./assets/images/mtgHubV2.png" alt="updated MTG trade hub">
+                </a>
             </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
+            <div class="grid-container">
+                <div class="project">
+                    <a href="https://evening-ocean-19840.herokuapp.com/">
+                        <img src="./assets/images/mtgHubV1.png" alt="orignal mtg trade hub">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://niccarrig.github.io/cravings/">
+                        <img src="./assets/images/cravingFinder.png" alt="craving finder">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://niccarrig.github.io/challenge5/">
+                        <img src="./assets/images/workDayScheduler.png" alt="work day scheduler">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://niccarrig.github.io/challenge6/">
+                        <img src="./assets/images/weatherDashboard.png" alt="weather dashboard">
+                    </a>
+                </div>
+            </div>
+                
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-link">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/nicholas-carrig-25043b24a/">linkedin</a></li>
+                    <li><a href="https://github.com/NicCarrig">GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Imaginative World. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
+            <a href="/">Back to top</a>
     </footer>
-
-    <script src="script.js"></script> <!-- You can add JavaScript functionality here -->
+    
 </body>
 </html>

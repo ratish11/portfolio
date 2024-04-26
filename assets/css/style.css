@@ -1,139 +1,292 @@
-/* Reset some default styles */
+:root {
+  --main-color: #2e3449;
+  --main-font-color: silver;
+  --main-font-style: Arial, Helvetica, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
+/* Header Style Start */
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem 0;
+  background-color: #595b61;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
+
+
+header nav ul {
+  font-family: monospace;
+  font-size: 30px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  color: var(--main-font-color);
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+header nav ul li a {
+  color: var(--main-font-color);
+  text-decoration: none;
+  
+}
+
+header nav ul li a:hover {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  padding: 10px;
+}
+
 
 header h1 {
-  font-size: 2rem;
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-size: 50px;
   text-align: center;
+  margin: 5px 0 px 0;
+
 }
 
-nav ul {
-  list-style-type: none;
-  text-align: center;
+
+.about img {
+  width: 10%;
+  height: 10%;
+  border: solid 2px;
+  border-radius: 150px;
+  margin: 10px;
+  float: left;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+/* Header Style End */
+
+
+/* Main Style Start */
+/* About Section */
+
+main {
+  background-color: var(--main-color);
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.section {
-  padding: 4rem 0;
-  text-align: center;
-}
-
-.section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
-}
-
-.portfolio-item {
-  position: relative;
-}
-
-.portfolio-item img {
-  max-width: 100%;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.portfolio-item:hover img {
-  transform: scale(1.05);
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
+.about {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  line-height: 2;
 }
 
-.portfolio-item:hover .overlay {
+
+
+.about-para {
+  text-align: center;
+  width: 80%;
+  margin: 20px 100px 20px 100px;
+  padding-bottom: 50px;
+}
+
+.about-para h3 {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-weight: darker;
+  font-size: 40px;
+  margin-top: 25px;
+  text-align: center;
+  
+}
+
+.about-para p {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-size: 20px;
+}
+
+/* Main Style End */
+
+/* Projects Style Start */
+
+.projects {
+  padding-bottom: 20px;
+}
+
+.projects h3 {
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding-bottom: 5px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 4px;
+  column-gap: 4px;
+}
+
+.html-card {
+  width: 100%;
+  height: 500px;
+  border: solid 4px silver;
+  flex-basis: 80%;
+  background-image: url(../images/topstocks.png);
+  background-size: cover;
+}
+
+
+.project-cards a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.project-cards a:hover {
   opacity: 1;
 }
 
-.overlay h3,
-.overlay p {
-  margin-bottom: 1rem;
+.project-card-text {
+  background-color: var(--main-color);
+  font-size: 30px;
+  color: silver;
+  opacity: 0.7;
 }
 
-form label {
-  display: block;
-  margin-bottom: 0.5rem;
+
+.css-card {
+  width: 40%;
+  height: 400px;
+  border: solid 4px silver;
+  background-image: url(../images/work-day-scheduler.png);
+  background-size: cover;
 }
 
-form input,
-form textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+.games-card {
+  width: 40%;
+  height: 400px;
+  border: solid 4px silver;
+  background-image: url(../images/donkeykong.jpg);
+  background-size: cover;
 }
 
-form button {
-  padding: 0.5rem 1rem;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+.javascript-games-card {
+  width: 40%;
+  height: 400px;
+  border: solid 4px silver;
+  background-image: url(../images/codequiz.png);
+  background-size: cover;
 }
+
+/*Projects Style End */
+
+/*Footer Style Start */
 
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 2rem 0;
-  text-align: center;
+  background-color:#57799a;
 }
 
-.social-links {
-  margin-top: 1rem;
+footer ul {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
 }
 
-.social-icon {
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 0 0.5rem;
-  transition: color 0.3s ease;
+footer ul li {
+  padding: 15px 20px;
 }
 
-.social-icon:hover {
-  color: #aaa;
+footer a {
+  text-decoration: none;
+  color: black;
 }
+
+footer ul li a:hover {
+  background-color: #595b61;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/*Footer Style End */
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+
+  
+  header {
+      justify-content: center;
+      position: relative;
+  }
+
+  header nav ul {
+      text-align: center;
+  }
+  
+  .about-para p {
+      font-size: 25px;
+  }
+
+  .about-para h3 {
+      font-size: 30px;
+  }
+
+
+  .about img {
+      width:20%;
+      height:20%;
+  }
+
+  footer ul {
+      justify-content: center;
+      text-align: center;
+  }
+
+  .projects h3 {
+      font-size: 30px;
+  }
+
+  .project-card-text {
+      text-align: center;
+  }
+
+  .css-card {
+      background-image: url(../images/run-buddy-image.jpg);
+      background-size:cover;
+      background-position: right;
+  }
+}
+
+
+
