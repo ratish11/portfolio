@@ -122,22 +122,24 @@ footer a {
 .section-title {
   text-align: center;
   box-shadow: 0px 2px 10px -10px rgba(0,0,0,.9);
-  margin-bottom: 10px;
-  /* border-bottom: 2px solid rgb(0, 0, 0); */
+  /* margin-bottom: 10px; */
+  border-bottom: 2px solid rgb(0, 0, 0);
   display: table;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about-content {
   display: flex;  /* Make the container a flexbox */
   margin-left: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-image-container {
   flex: 0 0 200px;  /* Set a fixed width for the image container */
-  margin-right: 20px;  /* Add margin for spacing between image and text */
+  margin-right: 60px;  /* Add margin for spacing between image and text */
 }
 
 .about-text {
