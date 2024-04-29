@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Ratish Jha",
-  logo_name: "RatishJha",
+  logo_name: "Ratish Jha",
   nickname: "RJ",
   subTitle:
     "Greetings my fellow beings! A helpful Developer, with a passion for Cloud Solutions and Software Engineering.",
@@ -338,7 +338,7 @@ const degrees = {
       alt_name: "The University of Georgia",
       duration: "Aug, 2022 - May, 2024",
       descriptions: [
-        "⚡ I have a diversified courses structure with Core Computing subjects along with Cloud and AI systems, they include Algorithms, DataBase Systems, Distributed Computing System, Machine Learning, Advance topics in Computer Science which included NLP and Generative AI, etc.",
+        "⚡ I have a diversified courses structure with Core Computing subjects along with Cloud and AI systems. They include Algorithms, DataBase Systems, Distributed Computing System, Machine Learning, Advance topics in Computer Science which included NLP and Generative AI, etc.",
         "⚡ Apart from this, I have also been a research assistant for The Hoarfrost Lab. As part of it, I have worked on creating advance version of LookingGlass which was based on Transformer architecture.",
         "⚡ During my time at university, I was also associated with Forestory department. As part of it, I have worked on creating videos of Forest area for Virtual Forest Lab as Augumented relaity project.",
       ],
