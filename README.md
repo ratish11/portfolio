@@ -11,4 +11,4 @@
 
 
 
-refer doc for deployment pages: https://create-react-app.dev/docs/deployment/#github-pages
+refer doc for Pages deployment 📦: https://create-react-app.dev/docs/deployment/#github-pages
