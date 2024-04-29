@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "bf9ac4d240e7dc5d0349ad348574341c",
+    revision: "cf06323a956ba7ed317ea04372dea4de",
     url: "/ratishjha.github.io/index.html",
   },
   {
-    revision: "e27130fdb5e059470e4d",
+    revision: "2bbf5520d53f227b549a",
     url: "/ratishjha.github.io/static/css/main.08799f29.chunk.css",
   },
   {
-    revision: "2b4b23521d3bf088b40d",
-    url: "/ratishjha.github.io/static/js/2.c6f8de23.chunk.js",
+    revision: "842b736c92f5574447a2",
+    url: "/ratishjha.github.io/static/js/2.cfc8f4f8.chunk.js",
   },
   {
-    revision: "e27130fdb5e059470e4d",
-    url: "/ratishjha.github.io/static/js/main.3761fefb.chunk.js",
+    revision: "2bbf5520d53f227b549a",
+    url: "/ratishjha.github.io/static/js/main.24cc7404.chunk.js",
   },
   {
     revision: "af7ac3b09fd05b152070",
@@ -57,10 +57,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     url: "/ratishjha.github.io/static/media/address_image.16559172.svg",
   },
   {
-    revision: "eaf02c2d0158b6b4b8c2a0a0cf830a04",
-    url: "/ratishjha.github.io/static/media/animated_ashutosh.eaf02c2d.png",
-  },
-  {
     revision: "dcd6dee2bd7458a4a576dc131506fd83",
     url: "/ratishjha.github.io/static/media/animated_logo.dcd6dee2.svg",
   },
@@ -96,10 +92,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "3e23ca14e7a7c8a7b63d255466749000",
     url: "/ratishjha.github.io/static/media/developerActivity.3e23ca14.svg",
-  },
-  {
-    revision: "63f707f224c8a842ac928c36e3be879a",
-    url: "/ratishjha.github.io/static/media/dsc_logo.63f707f2.png",
   },
   {
     revision: "3bab7a9dc4324f1b2364d25a47fcfcf0",
@@ -270,20 +262,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     url: "/ratishjha.github.io/static/media/self.6a3d5fdf.JPG",
   },
   {
-    revision: "2c497738be3831492aeb6bdc43f19154",
-    url: "/ratishjha.github.io/static/media/stanford_logo.2c497738.png",
-  },
-  {
     revision: "6ac91b161c2c9934a44f72d75d18142d",
     url: "/ratishjha.github.io/static/media/talksCardBack.6ac91b16.svg",
   },
   {
     revision: "3fa5424232370e3d049c9555d9c440a4",
     url: "/ratishjha.github.io/static/media/talksCardBackAlt.3fa54242.svg",
-  },
-  {
-    revision: "0993e3246bf5146154391a0afef79b03",
-    url: "/ratishjha.github.io/static/media/tiktok_logo.0993e324.png",
   },
   {
     revision: "0a1b6329fef2f0c5ebbed3754c448f88",
@@ -298,7 +282,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     url: "/ratishjha.github.io/static/media/upgrad_logo.2fec53a3.jpg",
   },
   {
-    revision: "aa9075b5338bd4a58246cec1c2b60d3c",
-    url: "/ratishjha.github.io/static/media/zycus_logo.aa9075b5.webp",
+    revision: "f2c250a0ff1df5dc70f1d2dcfbe5165c",
+    url: "/ratishjha.github.io/static/media/zycus_logo.f2c250a0.webp",
   },
 ]);

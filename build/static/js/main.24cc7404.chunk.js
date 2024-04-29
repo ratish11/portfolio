@@ -20,60 +20,54 @@
     function (e, t, a) {
       var l = {
         "./address_image.svg": 129,
-        "./animated_ashutosh.png": 130,
-        "./animated_logo.svg": 131,
-        "./aws-certified-developer-associate.png": 132,
-        "./blogs_image.svg": 133,
-        "./cloud_infrastructure.svg": 134,
-        "./codeInLogo.png": 135,
-        "./contactMail.png": 136,
-        "./coursera_logo.png": 137,
-        "./data_science.svg": 138,
-        "./deeplearning_ai_logo.png": 139,
-        "./delhivery_logo.png": 140,
-        "./developerActivity.svg": 141,
-        "./dsc_logo.png": 142,
-        "./education.svg": 143,
-        "./experience.svg": 144,
-        "./feelingProud.svg": 145,
-        "./freecopy_logo.png": 146,
-        "./fullstack.svg": 147,
-        "./gcp_logo.png": 148,
-        "./github_logo.png": 149,
-        "./googleAssistant.jpg": 150,
-        "./googleAssistant.svg": 151,
-        "./google_logo.png": 152,
-        "./hoarfrost_logo.png": 153,
-        "./ibm_logo.png": 154,
-        "./iiitk_logo.png": 155,
-        "./intel_logo.jpg": 156,
-        "./intro_profile.jpg": 157,
+        "./animated_logo.svg": 130,
+        "./aws-certified-developer-associate.png": 131,
+        "./blogs_image.svg": 132,
+        "./cloud_infrastructure.svg": 133,
+        "./codeInLogo.png": 134,
+        "./contactMail.png": 135,
+        "./coursera_logo.png": 136,
+        "./data_science.svg": 137,
+        "./deeplearning_ai_logo.png": 138,
+        "./developerActivity.svg": 139,
+        "./education.svg": 140,
+        "./experience.svg": 141,
+        "./feelingProud.svg": 142,
+        "./freecopy_logo.png": 143,
+        "./fullstack.svg": 144,
+        "./gcp_logo.png": 145,
+        "./github_logo.png": 146,
+        "./googleAssistant.jpg": 147,
+        "./googleAssistant.svg": 148,
+        "./google_logo.png": 149,
+        "./hoarfrost_logo.png": 150,
+        "./ibm_logo.png": 151,
+        "./iiitk_logo.png": 152,
+        "./intel_logo.jpg": 153,
+        "./intro_profile.jpg": 154,
         "./intro_profile.png": 65,
-        "./iu_logo.png": 158,
-        "./jsFramework.svg": 159,
-        "./legato_logo.png": 160,
-        "./manOnTable.svg": 161,
-        "./microsoft_logo.png": 162,
-        "./mozilla_logo.png": 163,
-        "./muffito_logo.png": 164,
-        "./nextuLogo.jpg": 165,
-        "./nptel_logo.png": 166,
-        "./portfolio.gif": 167,
-        "./programmer.svg": 168,
-        "./projects_image.svg": 169,
-        "./pwa.png": 170,
-        "./rgit_logo.webp": 171,
-        "./saa_logo.png": 172,
-        "./saayaHealthLogo.png": 173,
-        "./self.JPG": 174,
-        "./stanford_logo.png": 175,
-        "./talksCardBack.svg": 176,
-        "./talksCardBackAlt.svg": 177,
-        "./tiktok_logo.png": 178,
-        "./uga_logo.png": 179,
-        "./ui_ux_design.svg": 180,
-        "./upgrad_logo.jpg": 181,
-        "./zycus_logo.webp": 182,
+        "./iu_logo.png": 155,
+        "./jsFramework.svg": 156,
+        "./legato_logo.png": 157,
+        "./manOnTable.svg": 158,
+        "./microsoft_logo.png": 159,
+        "./mozilla_logo.png": 160,
+        "./muffito_logo.png": 161,
+        "./nextuLogo.jpg": 162,
+        "./nptel_logo.png": 163,
+        "./portfolio.gif": 164,
+        "./programmer.svg": 165,
+        "./projects_image.svg": 166,
+        "./pwa.png": 167,
+        "./rgit_logo.webp": 168,
+        "./saa_logo.png": 169,
+        "./self.JPG": 170,
+        "./talksCardBack.svg": 171,
+        "./talksCardBackAlt.svg": 172,
+        "./uga_logo.png": 173,
+        "./ui_ux_design.svg": 174,
+        "./upgrad_logo.jpg": 175,
+        "./zycus_logo.webp": 176,
       };
       function r(e) {
         var t = n(e);
@@ -164,7 +158,7 @@
     },
     ,
     function (e, t, a) {
-      e.exports = a(303);
+      e.exports = a(297);
     },
     ,
     ,
@@ -205,9 +199,6 @@
       e.exports = a.p + "static/media/address_image.16559172.svg";
     },
     function (e, t, a) {
-      e.exports = a.p + "static/media/animated_ashutosh.eaf02c2d.png";
-    },
-    function (e, t, a) {
       e.exports = a.p + "static/media/animated_logo.dcd6dee2.svg";
     },
     function (e, t, a) {
@@ -236,15 +227,8 @@
     function (e, t, a) {
       e.exports = a.p + "static/media/deeplearning_ai_logo.75a7107b.png";
     },
-    function (e, t) {
-      e.exports =
-        "data:image/png;base64,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";
-    },
     function (e, t, a) {
       e.exports = a.p + "static/media/developerActivity.3e23ca14.svg";
-    },
-    function (e, t, a) {
-      e.exports = a.p + "static/media/dsc_logo.63f707f2.png";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/education.3bab7a9d.svg";
@@ -341,24 +325,14 @@
     function (e, t, a) {
       e.exports = a.p + "static/media/saa_logo.ca94c6f7.png";
     },
-    function (e, t) {
-      e.exports =
-        "data:image/png;base64,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";
-    },
     function (e, t, a) {
       e.exports = a.p + "static/media/self.6a3d5fdf.JPG";
-    },
-    function (e, t, a) {
-      e.exports = a.p + "static/media/stanford_logo.2c497738.png";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/talksCardBack.6ac91b16.svg";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/talksCardBackAlt.3fa54242.svg";
-    },
-    function (e, t, a) {
-      e.exports = a.p + "static/media/tiktok_logo.0993e324.png";
     },
     function (e, t, a) {
       e.exports = a.p + "static/media/uga_logo.0a1b6329.png";
@@ -370,7 +344,7 @@
       e.exports = a.p + "static/media/upgrad_logo.2fec53a3.jpg";
     },
     function (e, t, a) {
-      e.exports = a.p + "static/media/zycus_logo.aa9075b5.webp";
+      e.exports = a.p + "static/media/zycus_logo.f2c250a0.webp";
     },
     function (e, t, a) {},
     function (e, t, a) {},
@@ -498,11 +472,11 @@
       var l = a(0),
         r = a.n(l),
         n = a(11),
-        i = a.n(n),
-        s = a(321),
-        c = a(304),
+        s = a.n(n),
+        i = a(315),
+        c = a(298),
         o = a(19),
-        m = a(319),
+        m = a(313),
         C = (a(98), a(99), a(6)),
         d = a(5),
         h = (a(100), a(3));
@@ -823,10 +797,10 @@
           ],
         },
         S = "Projects",
-        I =
+        R =
           "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-        R = "Publications",
-        H = "Some of my published Articles, Blogs and Research.",
+        H = "Publications",
+        I = "Some of my published Articles, Blogs and Research.",
         B = {
           data: [
             {
@@ -846,11 +820,11 @@
           description:
             " You can message me through my email or on linkedin, I will reply within 24 hours. I can help you with AWS, CLoud Solutions, ML.",
         },
-        L = {},
-        D = { title: "", subtitle: "" };
-      var U = a(82);
-      var G = function () {
-        var e, t, a, l, n, i, s, c, o, m, C, d, h;
+        G = {},
+        L = { title: "", subtitle: "" };
+      var D = a(82);
+      var O = function () {
+        var e, t, a, l, n, s, i, c, o, m, C, d, h;
         let A = [];
         M.filter(
           (e) => !(e.link.startsWith("tel") || e.link.startsWith("mailto"))
@@ -888,26 +862,26 @@
               ? void 0
               : l.url,
           email: g,
-          telephone: null === (n = D) || void 0 === n ? void 0 : n.subtitle,
+          telephone: null === (n = L) || void 0 === n ? void 0 : n.subtitle,
           sameAs: A,
           jobTitle: E.title,
           worksFor: { "@type": "Organization", name: E.company },
           address: {
             "@type": "PostalAddress",
             addressLocality:
-              null === (i = L) || void 0 === i ? void 0 : i.locality,
-            addressRegion: null === (s = L) || void 0 === s ? void 0 : s.region,
+              null === (s = G) || void 0 === s ? void 0 : s.locality,
+            addressRegion: null === (i = G) || void 0 === i ? void 0 : i.region,
             addressCountry:
-              null === (c = L) || void 0 === c ? void 0 : c.country,
+              null === (c = G) || void 0 === c ? void 0 : c.country,
             postalCode:
-              null === (o = L) || void 0 === o ? void 0 : o.postalCode,
+              null === (o = G) || void 0 === o ? void 0 : o.postalCode,
             streetAddress:
-              null === (m = L) || void 0 === m ? void 0 : m.streetAddress,
+              null === (m = G) || void 0 === m ? void 0 : m.streetAddress,
           },
           hasCredential: y,
         };
         return r.a.createElement(
-          U.a,
+          D.a,
           null,
           r.a.createElement("title", null, p.title),
           r.a.createElement("meta", {
@@ -942,20 +916,20 @@
           )
         );
       };
-      const Q = (e, t) => {
+      const V = (e, t) => {
           e.target.style.backgroundColor = t;
         },
-        O = (e) => {
+        U = (e) => {
           e.target.style.backgroundColor = "transparent";
         };
-      class z extends l.Component {
+      class T extends l.Component {
         render() {
           const e = this.props.theme,
             t = A ? "/splash" : "home";
           return r.a.createElement(
             h.Fade,
             { top: !0, duration: 1e3, distance: "20px" },
-            r.a.createElement(G, null),
+            r.a.createElement(O, null),
             r.a.createElement(
               "div",
               null,
@@ -996,8 +970,8 @@
                         tag: C.b,
                         activeStyle: { fontWeight: "bold" },
                         style: { color: e.text },
-                        onMouseEnter: (t) => Q(t, e.highlight),
-                        onMouseOut: (e) => O(e),
+                        onMouseEnter: (t) => V(t, e.highlight),
+                        onMouseOut: (e) => U(e),
                       },
                       "Home"
                     )
@@ -1012,8 +986,8 @@
                         tag: C.b,
                         activeStyle: { fontWeight: "bold" },
                         style: { color: e.text },
-                        onMouseEnter: (t) => Q(t, e.highlight),
-                        onMouseOut: (e) => O(e),
+                        onMouseEnter: (t) => V(t, e.highlight),
+                        onMouseOut: (e) => U(e),
                       },
                       "Education"
                     )
@@ -1028,8 +1002,8 @@
                         tag: C.b,
                         activeStyle: { fontWeight: "bold" },
                         style: { color: e.text },
-                        onMouseEnter: (t) => Q(t, e.highlight),
-                        onMouseOut: (e) => O(e),
+                        onMouseEnter: (t) => V(t, e.highlight),
+                        onMouseOut: (e) => U(e),
                       },
                       "Experience"
                     )
@@ -1044,8 +1018,8 @@
                         tag: C.b,
                         activeStyle: { fontWeight: "bold" },
                         style: { color: e.text },
-                        onMouseEnter: (t) => Q(t, e.highlight),
-                        onMouseOut: (e) => O(e),
+                        onMouseEnter: (t) => V(t, e.highlight),
+                        onMouseOut: (e) => U(e),
                       },
                       "Projects"
                     )
@@ -1060,8 +1034,8 @@
                         tag: C.b,
                         activeStyle: { fontWeight: "bold" },
                         style: { color: e.text },
-                        onMouseEnter: (t) => Q(t, e.highlight),
-                        onMouseOut: (e) => O(e),
+                        onMouseEnter: (t) => V(t, e.highlight),
+                        onMouseOut: (e) => U(e),
                       },
                       "Open Source"
                     )
@@ -1076,8 +1050,8 @@
                         tag: C.b,
                         activeStyle: { fontWeight: "bold" },
                         style: { color: e.text },
-                        onMouseEnter: (t) => Q(t, e.highlight),
-                        onMouseOut: (e) => O(e),
+                        onMouseEnter: (t) => V(t, e.highlight),
+                        onMouseOut: (e) => U(e),
                       },
                       "Contact Me"
                     )
@@ -1088,13 +1062,13 @@
           );
         }
       }
-      var T,
-        V = z,
-        F = (a(117), a(40)),
+      var z,
+        F = T,
+        Q = (a(117), a(40)),
         J = (a(118), a(21));
       const q = J.c.span(
-        T ||
-          (T = Object(F.a)([
+        z ||
+          (z = Object(Q.a)([
             "\n  i {\n    background-color: ",
             ";\n  }\n  &:hover i {\n    background-color: ",
             ";\n    transition: 0.3s ease-in;\n  }\n",
@@ -1131,8 +1105,8 @@
         );
       }
       a(120);
-      function X(e) {
-        let { text: t, className: a, href: l, newTab: n, theme: i } = e;
+      function W(e) {
+        let { text: t, className: a, href: l, newTab: n, theme: s } = e;
         return r.a.createElement(
           "div",
           { className: a },
@@ -1143,27 +1117,27 @@
               href: l,
               target: n && "_blank",
               style: {
-                color: i.body,
-                backgroundColor: i.text,
-                border: "solid 1px ".concat(i.text),
+                color: s.body,
+                backgroundColor: s.text,
+                border: "solid 1px ".concat(s.text),
               },
               onMouseEnter: (e) =>
                 ((e, t, a) => {
                   const l = e.target;
                   (l.style.color = t), (l.style.backgroundColor = a);
-                })(e, i.text, i.body),
+                })(e, s.text, s.body),
               onMouseOut: (e) =>
                 ((e, t, a) => {
                   const l = e.target;
                   (l.style.color = t), (l.style.backgroundColor = a);
-                })(e, i.body, i.text),
+                })(e, s.body, s.text),
             },
             t
           )
         );
       }
       l.Component;
-      function W(e) {
+      function X(e) {
         const t = e.theme;
         return r.a.createElement(
           h.Fade,
@@ -1208,7 +1182,7 @@
                   r.a.createElement(
                     "div",
                     { className: "portfolio-repo-btn-div" },
-                    r.a.createElement(X, {
+                    r.a.createElement(W, {
                       text: "\u2b50 Star Me On Github",
                       newTab: !0,
                       href: x,
@@ -1231,8 +1205,8 @@
         );
       }
       a(66), a(121);
-      var Y = a(318),
-        K = a(316);
+      var Y = a(312),
+        K = a(310);
       class _ extends r.a.Component {
         render() {
           return r.a.createElement(
@@ -3578,8 +3552,8 @@
           );
         }
       }
-      var ie = ne;
-      function se(e) {
+      var se = ne;
+      function ie(e) {
         const t = e.theme;
         return r.a.createElement(
           "div",
@@ -3597,7 +3571,7 @@
               )
             )
           ),
-          r.a.createElement(ie, { theme: t })
+          r.a.createElement(se, { theme: t })
         );
       }
       a(123);
@@ -3674,9 +3648,9 @@
           return r.a.createElement(
             "div",
             null,
-            r.a.createElement(V, { theme: this.props.theme }),
-            r.a.createElement(W, { theme: this.props.theme }),
-            r.a.createElement(se, { theme: this.props.theme }),
+            r.a.createElement(F, { theme: this.props.theme }),
+            r.a.createElement(X, { theme: this.props.theme }),
+            r.a.createElement(ie, { theme: this.props.theme }),
             r.a.createElement(ce, { theme: this.props.theme }),
             r.a.createElement(oe, { theme: this.props.theme })
           );
@@ -4087,7 +4061,7 @@
         }
       }
       var ue = ye;
-      a(183), a(184);
+      a(177), a(178);
       class xe extends l.Component {
         render() {
           const e = this.props.certificate,
@@ -4184,7 +4158,7 @@
         }
       }
       var ve = Me;
-      a(185);
+      a(179);
       class we extends r.a.Component {
         render() {
           return r.a.createElement(
@@ -4537,14 +4511,14 @@
           );
         }
       }
-      a(186);
+      a(180);
       class Ne extends l.Component {
         render() {
           const e = this.props.theme;
           return r.a.createElement(
             "div",
             { className: "education-main" },
-            r.a.createElement(V, { theme: this.props.theme }),
+            r.a.createElement(F, { theme: this.props.theme }),
             r.a.createElement(
               "div",
               { className: "basic-education" },
@@ -4590,8 +4564,8 @@
         }
       }
       var Se = Ne;
-      a(187);
-      class Ie extends l.Component {
+      a(181);
+      class Re extends l.Component {
         render() {
           const e = this.props.experience,
             t = this.props.index,
@@ -4735,9 +4709,9 @@
           );
         }
       }
-      var Re = Ie,
-        He = (a(188), a(322)),
-        Be = a(320);
+      var He = Re,
+        Ie = (a(182), a(316)),
+        Be = a(314);
       class je extends l.Component {
         render() {
           const e = this.props.theme;
@@ -4745,7 +4719,7 @@
             "div",
             { className: "experience-accord" },
             r.a.createElement(
-              He.a,
+              Ie.a,
               null,
               this.props.sections.map((t) =>
                 r.a.createElement(
@@ -4773,7 +4747,7 @@
                     },
                   },
                   t.experiences.map((a, l) =>
-                    r.a.createElement(Re, {
+                    r.a.createElement(He, {
                       index: l,
                       totalCards: t.experiences.length,
                       experience: a,
@@ -4786,9 +4760,9 @@
           );
         }
       }
-      var Le = je;
-      a(190);
-      class De extends l.Component {
+      var Ge = je;
+      a(184);
+      class Le extends l.Component {
         render() {
           const e = this.props.theme;
           return r.a.createElement(
@@ -5223,13 +5197,13 @@
           );
         }
       }
-      class Ue extends l.Component {
+      class De extends l.Component {
         render() {
           const e = this.props.theme;
           return r.a.createElement(
             "div",
             { className: "experience-main" },
-            r.a.createElement(V, { theme: e }),
+            r.a.createElement(F, { theme: e }),
             r.a.createElement(
               "div",
               { className: "basic-experience" },
@@ -5242,7 +5216,7 @@
                   r.a.createElement(
                     "div",
                     { className: "experience-heading-img-div" },
-                    r.a.createElement(De, { theme: e })
+                    r.a.createElement(Le, { theme: e })
                   ),
                   r.a.createElement(
                     "div",
@@ -5275,7 +5249,7 @@
                 )
               )
             ),
-            r.a.createElement(Le, { sections: N.sections, theme: e }),
+            r.a.createElement(Ge, { sections: N.sections, theme: e }),
             r.a.createElement(ce, {
               theme: this.props.theme,
               onToggle: this.props.onToggle,
@@ -5284,36 +5258,36 @@
           );
         }
       }
-      var Ge = Ue;
-      a(41), a(285), a(25);
+      var Oe = De;
+      a(41), a(279), a(25);
       l.Component;
-      a(286), a(31);
+      a(280), a(31);
       l.Component;
-      a(287);
+      a(281);
       l.Component;
-      a(288), a(289);
+      a(282), a(283);
       l.Component;
       a(90);
       l.Component;
-      a(290), a(291);
+      a(284), a(285);
       l.Component;
       l.Component;
-      a(292), a(293);
+      a(286), a(287);
       l.Component;
       l.Component;
-      a(294);
+      a(288);
       l.Component;
       l.Component;
       l.Component;
-      a(295);
-      const Qe = j;
-      class Oe extends l.Component {
+      a(289);
+      const Ve = j;
+      class Ue extends l.Component {
         render() {
           const e = this.props.theme;
           return r.a.createElement(
             "div",
             { className: "contact-main" },
-            r.a.createElement(V, { theme: e }),
+            r.a.createElement(F, { theme: e }),
             r.a.createElement(
               "div",
               { className: "basic-contact" },
@@ -5327,7 +5301,7 @@
                     "div",
                     { className: "contact-heading-img-div" },
                     r.a.createElement("img", {
-                      src: a(32)("./".concat(Qe.profile_image_path)),
+                      src: a(32)("./".concat(Ve.profile_image_path)),
                       alt: "",
                       style: { width: "512px", height: "700px" },
                     })
@@ -5341,7 +5315,7 @@
                         className: "contact-heading-text",
                         style: { color: e.text },
                       },
-                      Qe.title
+                      Ve.title
                     ),
                     r.a.createElement(
                       "p",
@@ -5349,13 +5323,13 @@
                         className: "contact-header-detail-text subTitle",
                         style: { color: e.secondaryText },
                       },
-                      Qe.description
+                      Ve.description
                     ),
                     r.a.createElement(P, { theme: e }),
                     r.a.createElement(
                       "div",
                       { className: "resume-btn-div" },
-                      r.a.createElement(X, {
+                      r.a.createElement(W, {
                         text: "See My Resume",
                         newTab: !0,
                         href: u,
@@ -5374,9 +5348,9 @@
           );
         }
       }
-      var ze = Oe;
-      a(296);
-      class Te extends l.Component {
+      var Te = Ue;
+      a(290);
+      class ze extends l.Component {
         render() {
           return r.a.createElement(
             "div",
@@ -5418,9 +5392,9 @@
           );
         }
       }
-      var Ve = Te;
-      a(297);
-      function Fe(e) {
+      var Fe = ze;
+      a(291);
+      function Qe(e) {
         let { repo: t, theme: a } = e;
         return r.a.createElement(
           "div",
@@ -5482,7 +5456,7 @@
                   "Created on ",
                   t.createdAt.split("T")[0]
                 ),
-                r.a.createElement(Ve, {
+                r.a.createElement(Fe, {
                   className: "repo-languages",
                   logos: t.languages,
                 })
@@ -5491,7 +5465,7 @@
           )
         );
       }
-      a(298);
+      a(292);
       function Je(e) {
         let { pub: t, theme: a } = e;
         return r.a.createElement(
@@ -5547,7 +5521,7 @@
         );
       }
       var qe = a(91);
-      a(299);
+      a(293);
       class Pe extends l.Component {
         render() {
           const e = this.props.theme;
@@ -6232,13 +6206,13 @@
           );
         }
       }
-      class Xe extends l.Component {
+      class We extends l.Component {
         render() {
           const e = this.props.theme;
           return r.a.createElement(
             "div",
             { className: "projects-main" },
-            r.a.createElement(V, { theme: e }),
+            r.a.createElement(F, { theme: e }),
             r.a.createElement(
               "div",
               { className: "basic-projects" },
@@ -6270,7 +6244,7 @@
                         className: "projects-header-detail-text subTitle",
                         style: { color: e.secondaryText },
                       },
-                      I
+                      R
                     )
                   )
                 )
@@ -6279,9 +6253,9 @@
             r.a.createElement(
               "div",
               { className: "repo-cards-div-main" },
-              qe.data.map((t) => r.a.createElement(Fe, { repo: t, theme: e }))
+              qe.data.map((t) => r.a.createElement(Qe, { repo: t, theme: e }))
             ),
-            r.a.createElement(X, {
+            r.a.createElement(W, {
               text: "More Projects",
               className: "project-button",
               href: b,
@@ -6307,7 +6281,7 @@
                             className: "publications-heading-text",
                             style: { color: e.text },
                           },
-                          R
+                          H
                         ),
                         r.a.createElement(
                           "p",
@@ -6315,7 +6289,7 @@
                             className: "projects-header-detail-text subTitle",
                             style: { color: e.secondaryText },
                           },
-                          H
+                          I
                         )
                       )
                     )
@@ -6335,15 +6309,15 @@
           );
         }
       }
-      var We = Xe;
-      a(300);
+      var Xe = We;
+      a(294);
       class Ye extends l.Component {
         render() {
           const e = this.props.theme;
           return r.a.createElement(
             "div",
             { className: "error-main" },
-            r.a.createElement(V, { theme: this.props.theme }),
+            r.a.createElement(F, { theme: this.props.theme }),
             r.a.createElement(
               "div",
               { className: "error-class" },
@@ -6413,7 +6387,7 @@
                 exact: !0,
                 render: (e) =>
                   r.a.createElement(
-                    Ge,
+                    Oe,
                     Object.assign({}, e, { theme: this.props.theme })
                   ),
               }),
@@ -6429,7 +6403,7 @@
                 path: "/contact",
                 render: (e) =>
                   r.a.createElement(
-                    ze,
+                    Te,
                     Object.assign({}, e, { theme: this.props.theme })
                   ),
               }),
@@ -6446,7 +6420,7 @@
                 path: "/projects",
                 render: (e) =>
                   r.a.createElement(
-                    We,
+                    Xe,
                     Object.assign({}, e, { theme: this.props.theme })
                   ),
               }),
@@ -6478,7 +6452,7 @@
       var $e;
       const et = Object(J.b)(
         $e ||
-          ($e = Object(F.a)([
+          ($e = Object(Q.a)([
             "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
             ";\n    color: ",
             ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
@@ -6511,13 +6485,13 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      a(301);
+      a(295);
       const at = new m.a();
-      i.a.render(
+      s.a.render(
         r.a.createElement(
           o.a,
           { value: at },
-          r.a.createElement(s.a, { theme: c.a }, r.a.createElement(tt, null))
+          r.a.createElement(i.a, { theme: c.a }, r.a.createElement(tt, null))
         ),
         document.getElementById("root")
       ),
@@ -6529,4 +6503,4 @@
   ]),
   [[93, 1, 2]],
 ]);
-//# sourceMappingURL=main.3761fefb.chunk.js.map
+//# sourceMappingURL=main.24cc7404.chunk.js.map

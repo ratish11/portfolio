@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/ratishjha.github.io/static/css/main.08799f29.chunk.css",
-    "main.js": "/ratishjha.github.io/static/js/main.3761fefb.chunk.js",
-    "main.js.map": "/ratishjha.github.io/static/js/main.3761fefb.chunk.js.map",
+    "main.js": "/ratishjha.github.io/static/js/main.24cc7404.chunk.js",
+    "main.js.map": "/ratishjha.github.io/static/js/main.24cc7404.chunk.js.map",
     "runtime-main.js": "/ratishjha.github.io/static/js/runtime-main.747bea27.js",
     "runtime-main.js.map": "/ratishjha.github.io/static/js/runtime-main.747bea27.js.map",
-    "static/js/2.c6f8de23.chunk.js": "/ratishjha.github.io/static/js/2.c6f8de23.chunk.js",
-    "static/js/2.c6f8de23.chunk.js.map": "/ratishjha.github.io/static/js/2.c6f8de23.chunk.js.map",
+    "static/js/2.cfc8f4f8.chunk.js": "/ratishjha.github.io/static/js/2.cfc8f4f8.chunk.js",
+    "static/js/2.cfc8f4f8.chunk.js.map": "/ratishjha.github.io/static/js/2.cfc8f4f8.chunk.js.map",
     "index.html": "/ratishjha.github.io/index.html",
-    "precache-manifest.97b5a41d6a62995c4b8d757c8c0a00e6.js": "/ratishjha.github.io/precache-manifest.97b5a41d6a62995c4b8d757c8c0a00e6.js",
+    "precache-manifest.c076c835aac1da57fbfcfd17cdb7fa79.js": "/ratishjha.github.io/precache-manifest.c076c835aac1da57fbfcfd17cdb7fa79.js",
     "service-worker.js": "/ratishjha.github.io/service-worker.js",
     "static/css/main.08799f29.chunk.css.map": "/ratishjha.github.io/static/css/main.08799f29.chunk.css.map",
     "static/media/index.css": "/ratishjha.github.io/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/ratishjha.github.io/static/media/address_image.16559172.svg",
-    "static/media/animated_ashutosh.png": "/ratishjha.github.io/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/ratishjha.github.io/static/media/animated_logo.dcd6dee2.svg",
     "static/media/aws-certified-developer-associate.png": "/ratishjha.github.io/static/media/aws-certified-developer-associate.a3d938ab.png",
     "static/media/blogs_image.svg": "/ratishjha.github.io/static/media/blogs_image.058eca4c.svg",
@@ -23,7 +22,6 @@
     "static/media/data_science.svg": "/ratishjha.github.io/static/media/data_science.ebf35d7f.svg",
     "static/media/deeplearning_ai_logo.png": "/ratishjha.github.io/static/media/deeplearning_ai_logo.75a7107b.png",
     "static/media/developerActivity.svg": "/ratishjha.github.io/static/media/developerActivity.3e23ca14.svg",
-    "static/media/dsc_logo.png": "/ratishjha.github.io/static/media/dsc_logo.63f707f2.png",
     "static/media/education.svg": "/ratishjha.github.io/static/media/education.3bab7a9d.svg",
     "static/media/experience.svg": "/ratishjha.github.io/static/media/experience.a00ede3f.svg",
     "static/media/all.css": "/ratishjha.github.io/static/media/fa-solid-900.8e4a6dcc.eot",
@@ -52,19 +50,17 @@
     "static/media/rgit_logo.webp": "/ratishjha.github.io/static/media/rgit_logo.a7e9a01f.webp",
     "static/media/saa_logo.png": "/ratishjha.github.io/static/media/saa_logo.ca94c6f7.png",
     "static/media/self.JPG": "/ratishjha.github.io/static/media/self.6a3d5fdf.JPG",
-    "static/media/stanford_logo.png": "/ratishjha.github.io/static/media/stanford_logo.2c497738.png",
     "static/media/talksCardBack.svg": "/ratishjha.github.io/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/ratishjha.github.io/static/media/talksCardBackAlt.3fa54242.svg",
-    "static/media/tiktok_logo.png": "/ratishjha.github.io/static/media/tiktok_logo.0993e324.png",
     "static/media/uga_logo.png": "/ratishjha.github.io/static/media/uga_logo.0a1b6329.png",
     "static/media/ui_ux_design.svg": "/ratishjha.github.io/static/media/ui_ux_design.d6363089.svg",
     "static/media/upgrad_logo.jpg": "/ratishjha.github.io/static/media/upgrad_logo.2fec53a3.jpg",
-    "static/media/zycus_logo.webp": "/ratishjha.github.io/static/media/zycus_logo.aa9075b5.webp"
+    "static/media/zycus_logo.webp": "/ratishjha.github.io/static/media/zycus_logo.f2c250a0.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.747bea27.js",
-    "static/js/2.c6f8de23.chunk.js",
+    "static/js/2.cfc8f4f8.chunk.js",
     "static/css/main.08799f29.chunk.css",
-    "static/js/main.3761fefb.chunk.js"
+    "static/js/main.24cc7404.chunk.js"
   ]
 }
