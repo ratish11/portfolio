@@ -10,7 +10,7 @@ https://github.dev/ratish11/portfolio/tree/master?tab=readme-ov-file
 </p>
 
 <p align="center">
-    <a href="https://hits.dwyl.com/ratish11/protfolio.svg?style=flat-squar"><img alt="HitCounts" src="http://hits.dwyl.com/ratish11/protfolio" /></a>
+    <a href="https://hits.dwyl.com/ratish11/protfolio.svg?style=flat-square"><img alt="HitCounts" src="https://hits.dwyl.com/ratish11/protfolio.svg" /></a>
 </p>
 
 
