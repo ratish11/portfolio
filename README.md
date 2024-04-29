@@ -1,3 +1,18 @@
-[![HitCount](https://hits.dwyl.com/ratish11/ratish11githubio.svg?style=flat-square)](http://hits.dwyl.com/ratish11/ratish11githubio)
+https://github.dev/ratish11/portfolio/tree/master?tab=readme-ov-file
 
-refer doc https://create-react-app.dev/docs/deployment/#github-pages
+<h1 align="center"> Ratish Jha's Portfolio 🔥 </h1> 
+<h3 align="center"> Learn more about me </h3>
+
+<p align="center"> 
+    <a href="https://ratish11.github.io/portfolio/" target="_blank">
+    <img src="images/masterPortfolioThemes.png"></img>
+  </a>
+</p>
+
+<p align="center">
+    <a href="https://hits.dwyl.com/ratish11/protfolio.svg?style=flat-squar"><img alt="HitCounts" src="http://hits.dwyl.com/ratish11/protfolio" /></a>
+</p>
+
+
+
+refer doc for deployment pages: https://create-react-app.dev/docs/deployment/#github-pages
