@@ -5,7 +5,7 @@ https://github.dev/ratish11/portfolio/tree/master?tab=readme-ov-file
 
 <p align="center"> 
     <a href="https://ratish11.github.io/portfolio/" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
+    <img src="images/portfolio.jpg"></img>
   </a>
 </p>
 
